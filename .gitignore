@@ -1,0 +1,4 @@
+touch .gitignore
+git add .gitignore
+git commit -m "Aggiunto file .gitignore vuoto"
+git push origin main

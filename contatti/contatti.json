@@ -1,0 +1,944 @@
+{
+    "contatto": [
+        {
+            "codice_contatto": "333",
+            "stato": "attivo",
+            "categoria": "FORNITORE",
+            "dati_legali": {
+                "ragione_sociale": "Beta Trasporti",
+                "partita_iva": "IT31481150655",
+                "codice_fiscale": "BET19328A",
+                "pec": "betatrasporti@pec.it",
+                "codice_sdi": "D6414",
+                "indirizzo_recapiti": {
+                    "via": "Via Milano, 70",
+                    "cap": "63047",
+                    "citta": "Roma",
+                    "provincia": "IT",
+                    "paese": "Italia",
+                    "codice_paese": "IT",
+                    "telefono": "+22 643 2071788",
+                    "email": "info@betatrasporti.it"
+                },
+                "termini_contrattuali": {
+                    "modalita_fatturazione": "Fatturazione mensile",
+                    "modalita_pagamento": "Bonifico Bancario",
+                    "iban": "IT49X3172707924",
+                    "banca": "Banca Alfa"
+                }
+            },
+            "dati_operativi": {
+                "societa": "Beta Trasporti",
+                "indirizzo_recapiti_spedizione": {
+                    "via": "Corso Italia, 34",
+                    "cap": "33877",
+                    "citta": "Napoli",
+                    "provincia": "IT",
+                    "paese": "Italia",
+                    "codice_paese": "IT",
+                    "telefono": "+94 371 3522485",
+                    "email": "logistica@betatrasporti.it"
+                },
+                "listini_associati": [
+                    "standard_cash",
+                    "espresso_cash",
+                    "ore12_cash"
+                ],
+                "note": "Pagamento anticipato richiesto."
+            }
+        },
+        {
+            "codice_contatto": "89749",
+            "stato": "attivo",
+            "categoria": "FORNITORE",
+            "dati_legali": {
+                "ragione_sociale": "Rho Freight",
+                "partita_iva": "GB40538451345",
+                "codice_fiscale": "RHO69808A",
+                "pec": "rhofreight@pec.gb",
+                "codice_sdi": "C4653",
+                "indirizzo_recapiti": {
+                    "via": "Via Napoli, 91",
+                    "cap": "83108",
+                    "citta": "Leeds",
+                    "provincia": "GB",
+                    "paese": "Regno Unito",
+                    "codice_paese": "GB",
+                    "telefono": "+79 408 8368637",
+                    "email": "info@rhofreight.gb"
+                },
+                "termini_contrattuali": {
+                    "modalita_fatturazione": "Rimessa diretta",
+                    "modalita_pagamento": "Paypal",
+                    "iban": "GB56X5214117842",
+                    "banca": "Credito Europa"
+                }
+            },
+            "dati_operativi": {
+                "societa": "Rho Freight",
+                "indirizzo_recapiti_spedizione": {
+                    "via": "Corso Italia, 7",
+                    "cap": "10839",
+                    "citta": "Leeds",
+                    "provincia": "GB",
+                    "paese": "Regno Unito",
+                    "codice_paese": "GB",
+                    "telefono": "+9 305 6186108",
+                    "email": "logistica@rhofreight.gb"
+                },
+                "listini_associati": [
+                    "standard_89749",
+                    "espresso_89749",
+                    "ore12_89749"
+                ],
+                "note": "Gestione standard."
+            }
+        },
+        {
+            "codice_contatto": "25448",
+            "stato": "attivo",
+            "categoria": "FORNITORE",
+            "dati_legali": {
+                "ragione_sociale": "Iota Shipping",
+                "partita_iva": "AR85114743076",
+                "codice_fiscale": "IOT53181A",
+                "pec": "iotashipping@pec.ar",
+                "codice_sdi": "G3786",
+                "indirizzo_recapiti": {
+                    "via": "Via Firenze, 13",
+                    "cap": "97338",
+                    "citta": "Córdoba",
+                    "provincia": "AR",
+                    "paese": "Argentina",
+                    "codice_paese": "AR",
+                    "telefono": "+1 747 5826223",
+                    "email": "info@iotashipping.ar"
+                },
+                "termini_contrattuali": {
+                    "modalita_fatturazione": "Rimessa diretta",
+                    "modalita_pagamento": "Paypal",
+                    "iban": "AR98X6594380652",
+                    "banca": "Global Bank"
+                }
+            },
+            "dati_operativi": {
+                "societa": "Iota Shipping",
+                "indirizzo_recapiti_spedizione": {
+                    "via": "Corso Italia, 181",
+                    "cap": "52575",
+                    "citta": "Buenos Aires",
+                    "provincia": "AR",
+                    "paese": "Argentina",
+                    "codice_paese": "AR",
+                    "telefono": "+11 943 5477601",
+                    "email": "logistica@iotashipping.ar"
+                },
+                "listini_associati": [
+                    "standard_25448",
+                    "espresso_25448",
+                    "ore12_25448"
+                ],
+                "note": "Pagamento anticipato richiesto."
+            }
+        },
+        {
+            "codice_contatto": "46675",
+            "stato": "attivo",
+            "categoria": "CLIENTE",
+            "dati_legali": {
+                "ragione_sociale": "Psi Transport",
+                "partita_iva": "SE83713582296",
+                "codice_fiscale": "PSI66785A",
+                "pec": "psitransport@pec.se",
+                "codice_sdi": "F8534",
+                "indirizzo_recapiti": {
+                    "via": "Via Napoli, 94",
+                    "cap": "80221",
+                    "citta": "Stoccolma",
+                    "provincia": "SE",
+                    "paese": "Svezia",
+                    "codice_paese": "SE",
+                    "telefono": "+96 532 8677399",
+                    "email": "info@psitransport.se"
+                },
+                "termini_contrattuali": {
+                    "modalita_fatturazione": "Rimessa diretta",
+                    "modalita_pagamento": "Paypal",
+                    "iban": "SE93X8504423156",
+                    "banca": "Credito Europa"
+                }
+            },
+            "dati_operativi": {
+                "societa": "Psi Transport",
+                "indirizzo_recapiti_spedizione": {
+                    "via": "Corso Italia, 57",
+                    "cap": "70054",
+                    "citta": "Gotenborg",
+                    "provincia": "SE",
+                    "paese": "Svezia",
+                    "codice_paese": "SE",
+                    "telefono": "+16 765 3678447",
+                    "email": "logistica@psitransport.se"
+                },
+                "listini_associati": [
+                    "standard_46675",
+                    "espresso_46675",
+                    "ore12_46675"
+                ],
+                "note": "Cliente con tariffe agevolate."
+            }
+        },
+        {
+            "codice_contatto": "90766",
+            "stato": "attivo",
+            "categoria": "FORNITORE",
+            "dati_legali": {
+                "ragione_sociale": "Tau Couriers",
+                "partita_iva": "SE24239969457",
+                "codice_fiscale": "TAU80565A",
+                "pec": "taucouriers@pec.se",
+                "codice_sdi": "D3735",
+                "indirizzo_recapiti": {
+                    "via": "Via Torino, 64",
+                    "cap": "63812",
+                    "citta": "Linköping",
+                    "provincia": "SE",
+                    "paese": "Svezia",
+                    "codice_paese": "SE",
+                    "telefono": "+72 922 1971990",
+                    "email": "info@taucouriers.se"
+                },
+                "termini_contrattuali": {
+                    "modalita_fatturazione": "Fatturazione mensile",
+                    "modalita_pagamento": "Carta di Credito",
+                    "iban": "SE84X8975343902",
+                    "banca": "Banca Alfa"
+                }
+            },
+            "dati_operativi": {
+                "societa": "Tau Couriers",
+                "indirizzo_recapiti_spedizione": {
+                    "via": "Corso Europa, 181",
+                    "cap": "71747",
+                    "citta": "Linköping",
+                    "provincia": "SE",
+                    "paese": "Svezia",
+                    "codice_paese": "SE",
+                    "telefono": "+83 819 8850510",
+                    "email": "logistica@taucouriers.se"
+                },
+                "listini_associati": [
+                    "standard_90766",
+                    "espresso_90766",
+                    "ore12_90766"
+                ],
+                "note": "Gestione standard."
+            }
+        },
+        {
+            "codice_contatto": "30734",
+            "stato": "attivo",
+            "categoria": "FORNITORE",
+            "dati_legali": {
+                "ragione_sociale": "Lambda Shipping",
+                "partita_iva": "US32981232053",
+                "codice_fiscale": "LAM64355A",
+                "pec": "lambdashipping@pec.us",
+                "codice_sdi": "F8746",
+                "indirizzo_recapiti": {
+                    "via": "Via Napoli, 27",
+                    "cap": "64740",
+                    "citta": "Los Angeles",
+                    "provincia": "US",
+                    "paese": "Stati Uniti D'America",
+                    "codice_paese": "US",
+                    "telefono": "+58 494 8528070",
+                    "email": "info@lambdashipping.us"
+                },
+                "termini_contrattuali": {
+                    "modalita_fatturazione": "Fatturazione mensile",
+                    "modalita_pagamento": "Bonifico Bancario",
+                    "iban": "US38X8973946173",
+                    "banca": "Banca Alfa"
+                }
+            },
+            "dati_operativi": {
+                "societa": "Lambda Shipping",
+                "indirizzo_recapiti_spedizione": {
+                    "via": "Corso Europa, 162",
+                    "cap": "42548",
+                    "citta": "Los Angeles",
+                    "provincia": "US",
+                    "paese": "Stati Uniti D'America",
+                    "codice_paese": "US",
+                    "telefono": "+77 940 7630854",
+                    "email": "logistica@lambdashipping.us"
+                },
+                "listini_associati": [
+                    "standard_30734",
+                    "espresso_30734",
+                    "ore12_30734"
+                ],
+                "note": "Gestione standard."
+            }
+        },
+        {
+            "codice_contatto": "35908",
+            "stato": "attivo",
+            "categoria": "CLIENTE",
+            "dati_legali": {
+                "ragione_sociale": "Gamma Spedizioni",
+                "partita_iva": "MX34957386474",
+                "codice_fiscale": "GAM43019A",
+                "pec": "gammaspedizioni@pec.mx",
+                "codice_sdi": "B7743",
+                "indirizzo_recapiti": {
+                    "via": "Via Torino, 94",
+                    "cap": "51779",
+                    "citta": "Città del Messico",
+                    "provincia": "MX",
+                    "paese": "Messico",
+                    "codice_paese": "MX",
+                    "telefono": "+32 451 3868485",
+                    "email": "info@gammaspedizioni.mx"
+                },
+                "termini_contrattuali": {
+                    "modalita_fatturazione": "Fatturazione mensile",
+                    "modalita_pagamento": "Bonifico Bancario",
+                    "iban": "MX94X8297379097",
+                    "banca": "Global Bank"
+                }
+            },
+            "dati_operativi": {
+                "societa": "Gamma Spedizioni",
+                "indirizzo_recapiti_spedizione": {
+                    "via": "Corso Europa, 152",
+                    "cap": "80126",
+                    "citta": "Guadalajara",
+                    "provincia": "MX",
+                    "paese": "Messico",
+                    "codice_paese": "MX",
+                    "telefono": "+88 292 6091011",
+                    "email": "logistica@gammaspedizioni.mx"
+                },
+                "listini_associati": [
+                    "standard_35908",
+                    "espresso_35908",
+                    "ore12_35908"
+                ],
+                "note": "Cliente con tariffe agevolate."
+            }
+        },
+        {
+            "codice_contatto": "43324",
+            "stato": "attivo",
+            "categoria": "CLIENTE",
+            "dati_legali": {
+                "ragione_sociale": "Tau Couriers",
+                "partita_iva": "AR19826680787",
+                "codice_fiscale": "TAU39881A",
+                "pec": "taucouriers@pec.ar",
+                "codice_sdi": "A1641",
+                "indirizzo_recapiti": {
+                    "via": "Via Napoli, 81",
+                    "cap": "47254",
+                    "citta": "Córdoba",
+                    "provincia": "AR",
+                    "paese": "Argentina",
+                    "codice_paese": "AR",
+                    "telefono": "+12 929 6086773",
+                    "email": "info@taucouriers.ar"
+                },
+                "termini_contrattuali": {
+                    "modalita_fatturazione": "Rimessa diretta",
+                    "modalita_pagamento": "Paypal",
+                    "iban": "AR99X5154271254",
+                    "banca": "Banca Alfa"
+                }
+            },
+            "dati_operativi": {
+                "societa": "Tau Couriers",
+                "indirizzo_recapiti_spedizione": {
+                    "via": "Corso Spagna, 146",
+                    "cap": "91838",
+                    "citta": "Rosario",
+                    "provincia": "AR",
+                    "paese": "Argentina",
+                    "codice_paese": "AR",
+                    "telefono": "+9 131 3927777",
+                    "email": "logistica@taucouriers.ar"
+                },
+                "listini_associati": [
+                    "standard_43324",
+                    "espresso_43324",
+                    "ore12_43324"
+                ],
+                "note": "Cliente con tariffe agevolate."
+            }
+        },
+        {
+            "codice_contatto": "32475",
+            "stato": "attivo",
+            "categoria": "CLIENTE",
+            "dati_legali": {
+                "ragione_sociale": "Delta Cargo",
+                "partita_iva": "ES83763094264",
+                "codice_fiscale": "DEL67333A",
+                "pec": "deltacargo@pec.es",
+                "codice_sdi": "D4350",
+                "indirizzo_recapiti": {
+                    "via": "Via Milano, 67",
+                    "cap": "12491",
+                    "citta": "Barcellona",
+                    "provincia": "ES",
+                    "paese": "Spagna",
+                    "codice_paese": "ES",
+                    "telefono": "+87 998 7037390",
+                    "email": "info@deltacargo.es"
+                },
+                "termini_contrattuali": {
+                    "modalita_fatturazione": "Fatturazione mensile",
+                    "modalita_pagamento": "Bonifico Bancario",
+                    "iban": "ES87X8839428823",
+                    "banca": "Banca Alfa"
+                }
+            },
+            "dati_operativi": {
+                "societa": "Delta Cargo",
+                "indirizzo_recapiti_spedizione": {
+                    "via": "Corso Italia, 52",
+                    "cap": "30137",
+                    "citta": "Madrid",
+                    "provincia": "ES",
+                    "paese": "Spagna",
+                    "codice_paese": "ES",
+                    "telefono": "+14 621 7406290",
+                    "email": "logistica@deltacargo.es"
+                },
+                "listini_associati": [
+                    "standard_32475",
+                    "espresso_32475",
+                    "ore12_32475"
+                ],
+                "note": "Pagamento anticipato richiesto."
+            }
+        },
+        {
+            "codice_contatto": "12715",
+            "stato": "attivo",
+            "categoria": "FORNITORE",
+            "dati_legali": {
+                "ragione_sociale": "Chi Logistics",
+                "partita_iva": "NO41629071830",
+                "codice_fiscale": "CHI26716A",
+                "pec": "chilogistics@pec.no",
+                "codice_sdi": "E3192",
+                "indirizzo_recapiti": {
+                    "via": "Via Roma, 68",
+                    "cap": "19893",
+                    "citta": "Bergen",
+                    "provincia": "NO",
+                    "paese": "Norvegia",
+                    "codice_paese": "NO",
+                    "telefono": "+27 533 9871163",
+                    "email": "info@chilogistics.no"
+                },
+                "termini_contrattuali": {
+                    "modalita_fatturazione": "Rimessa diretta",
+                    "modalita_pagamento": "Carta di Credito",
+                    "iban": "NO52X3144177176",
+                    "banca": "Banca Alfa"
+                }
+            },
+            "dati_operativi": {
+                "societa": "Chi Logistics",
+                "indirizzo_recapiti_spedizione": {
+                    "via": "Corso Europa, 119",
+                    "cap": "39214",
+                    "citta": "Stavanger",
+                    "provincia": "NO",
+                    "paese": "Norvegia",
+                    "codice_paese": "NO",
+                    "telefono": "+59 968 1244749",
+                    "email": "logistica@chilogistics.no"
+                },
+                "listini_associati": [
+                    "standard_12715",
+                    "espresso_12715",
+                    "ore12_12715"
+                ],
+                "note": "Cliente con tariffe agevolate."
+            }
+        },
+        {
+            "codice_contatto": "72764",
+            "stato": "attivo",
+            "categoria": "FORNITORE",
+            "dati_legali": {
+                "ragione_sociale": "Upsilon Express",
+                "partita_iva": "GB70517583725",
+                "codice_fiscale": "UPS20597A",
+                "pec": "upsilonexpress@pec.gb",
+                "codice_sdi": "C5410",
+                "indirizzo_recapiti": {
+                    "via": "Via Milano, 58",
+                    "cap": "59643",
+                    "citta": "Liverpool",
+                    "provincia": "GB",
+                    "paese": "Regno Unito",
+                    "codice_paese": "GB",
+                    "telefono": "+91 213 4532218",
+                    "email": "info@upsilonexpress.gb"
+                },
+                "termini_contrattuali": {
+                    "modalita_fatturazione": "Rimessa diretta",
+                    "modalita_pagamento": "Carta di Credito",
+                    "iban": "GB64X8456104519",
+                    "banca": "Credito Europa"
+                }
+            },
+            "dati_operativi": {
+                "societa": "Upsilon Express",
+                "indirizzo_recapiti_spedizione": {
+                    "via": "Corso Italia, 169",
+                    "cap": "74046",
+                    "citta": "Manchester",
+                    "provincia": "GB",
+                    "paese": "Regno Unito",
+                    "codice_paese": "GB",
+                    "telefono": "+44 476 4247570",
+                    "email": "logistica@upsilonexpress.gb"
+                },
+                "listini_associati": [
+                    "standard_72764",
+                    "espresso_72764",
+                    "ore12_72764"
+                ],
+                "note": "Cliente con tariffe agevolate."
+            }
+        },
+        {
+            "codice_contatto": "45287",
+            "stato": "attivo",
+            "categoria": "FORNITORE",
+            "dati_legali": {
+                "ragione_sociale": "Zeta Freight",
+                "partita_iva": "DK10804731481",
+                "codice_fiscale": "ZET65184A",
+                "pec": "zetafreight@pec.dk",
+                "codice_sdi": "E7004",
+                "indirizzo_recapiti": {
+                    "via": "Via Napoli, 98",
+                    "cap": "13428",
+                    "citta": "Aarhus",
+                    "provincia": "DK",
+                    "paese": "Danimarca",
+                    "codice_paese": "DK",
+                    "telefono": "+48 344 1834598",
+                    "email": "info@zetafreight.dk"
+                },
+                "termini_contrattuali": {
+                    "modalita_fatturazione": "Rimessa diretta",
+                    "modalita_pagamento": "Carta di Credito",
+                    "iban": "DK31X8919994536",
+                    "banca": "Global Bank"
+                }
+            },
+            "dati_operativi": {
+                "societa": "Zeta Freight",
+                "indirizzo_recapiti_spedizione": {
+                    "via": "Corso Italia, 109",
+                    "cap": "34823",
+                    "citta": "Copenaghen",
+                    "provincia": "DK",
+                    "paese": "Danimarca",
+                    "codice_paese": "DK",
+                    "telefono": "+21 618 4559620",
+                    "email": "logistica@zetafreight.dk"
+                },
+                "listini_associati": [
+                    "standard_45287",
+                    "espresso_45287",
+                    "ore12_45287"
+                ],
+                "note": "Gestione standard."
+            }
+        },
+        {
+            "codice_contatto": "62461",
+            "stato": "attivo",
+            "categoria": "CLIENTE",
+            "dati_legali": {
+                "ragione_sociale": "Sigma Movers",
+                "partita_iva": "AU11108666902",
+                "codice_fiscale": "SIG98378A",
+                "pec": "sigmamovers@pec.au",
+                "codice_sdi": "G6299",
+                "indirizzo_recapiti": {
+                    "via": "Via Firenze, 82",
+                    "cap": "74386",
+                    "citta": "Brisbane",
+                    "provincia": "AU",
+                    "paese": "Australia",
+                    "codice_paese": "AU",
+                    "telefono": "+76 385 8199534",
+                    "email": "info@sigmamovers.au"
+                },
+                "termini_contrattuali": {
+                    "modalita_fatturazione": "Rimessa diretta",
+                    "modalita_pagamento": "Bonifico Bancario",
+                    "iban": "AU24X3514764169",
+                    "banca": "Global Bank"
+                }
+            },
+            "dati_operativi": {
+                "societa": "Sigma Movers",
+                "indirizzo_recapiti_spedizione": {
+                    "via": "Corso Spagna, 92",
+                    "cap": "98608",
+                    "citta": "Perth",
+                    "provincia": "AU",
+                    "paese": "Australia",
+                    "codice_paese": "AU",
+                    "telefono": "+30 559 9514163",
+                    "email": "logistica@sigmamovers.au"
+                },
+                "listini_associati": [
+                    "standard_62461",
+                    "espresso_62461",
+                    "ore12_62461"
+                ],
+                "note": "Cliente con tariffe agevolate."
+            }
+        },
+        {
+            "codice_contatto": "80114",
+            "stato": "attivo",
+            "categoria": "FORNITORE",
+            "dati_legali": {
+                "ragione_sociale": "Theta Transport",
+                "partita_iva": "FR35030757044",
+                "codice_fiscale": "THE10861A",
+                "pec": "thetatransport@pec.fr",
+                "codice_sdi": "F8379",
+                "indirizzo_recapiti": {
+                    "via": "Via Firenze, 84",
+                    "cap": "28757",
+                    "citta": "Marsiglia",
+                    "provincia": "FR",
+                    "paese": "Francia",
+                    "codice_paese": "FR",
+                    "telefono": "+22 102 9208664",
+                    "email": "info@thetatransport.fr"
+                },
+                "termini_contrattuali": {
+                    "modalita_fatturazione": "Rimessa diretta",
+                    "modalita_pagamento": "Carta di Credito",
+                    "iban": "FR59X5082373583",
+                    "banca": "Banca Beta"
+                }
+            },
+            "dati_operativi": {
+                "societa": "Theta Transport",
+                "indirizzo_recapiti_spedizione": {
+                    "via": "Corso Italia, 189",
+                    "cap": "60372",
+                    "citta": "Tolosa",
+                    "provincia": "FR",
+                    "paese": "Francia",
+                    "codice_paese": "FR",
+                    "telefono": "+5 680 6380353",
+                    "email": "logistica@thetatransport.fr"
+                },
+                "listini_associati": [
+                    "standard_80114",
+                    "espresso_80114",
+                    "ore12_80114"
+                ],
+                "note": "Pagamento anticipato richiesto."
+            }
+        },
+        {
+            "codice_contatto": "57869",
+            "stato": "attivo",
+            "categoria": "CLIENTE",
+            "dati_legali": {
+                "ragione_sociale": "Gamma Spedizioni",
+                "partita_iva": "IE25278641767",
+                "codice_fiscale": "GAM49953A",
+                "pec": "gammaspedizioni@pec.ie",
+                "codice_sdi": "G6024",
+                "indirizzo_recapiti": {
+                    "via": "Via Milano, 98",
+                    "cap": "74316",
+                    "citta": "Limerick",
+                    "provincia": "IE",
+                    "paese": "Irlanda",
+                    "codice_paese": "IE",
+                    "telefono": "+47 241 1526106",
+                    "email": "info@gammaspedizioni.ie"
+                },
+                "termini_contrattuali": {
+                    "modalita_fatturazione": "Fatturazione mensile",
+                    "modalita_pagamento": "Carta di Credito",
+                    "iban": "IE42X9714573165",
+                    "banca": "Banca Alfa"
+                }
+            },
+            "dati_operativi": {
+                "societa": "Gamma Spedizioni",
+                "indirizzo_recapiti_spedizione": {
+                    "via": "Corso Europa, 118",
+                    "cap": "95633",
+                    "citta": "Cork",
+                    "provincia": "IE",
+                    "paese": "Irlanda",
+                    "codice_paese": "IE",
+                    "telefono": "+87 108 8015618",
+                    "email": "logistica@gammaspedizioni.ie"
+                },
+                "listini_associati": [
+                    "standard_57869",
+                    "espresso_57869",
+                    "ore12_57869"
+                ],
+                "note": "Cliente con tariffe agevolate."
+            }
+        },
+        {
+            "codice_contatto": "33748",
+            "stato": "attivo",
+            "categoria": "FORNITORE",
+            "dati_legali": {
+                "ragione_sociale": "Gamma Spedizioni",
+                "partita_iva": "NL40253373352",
+                "codice_fiscale": "GAM69633A",
+                "pec": "gammaspedizioni@pec.nl",
+                "codice_sdi": "F7527",
+                "indirizzo_recapiti": {
+                    "via": "Via Milano, 92",
+                    "cap": "88843",
+                    "citta": "Amsterdam",
+                    "provincia": "NL",
+                    "paese": "Paesi Bassi",
+                    "codice_paese": "NL",
+                    "telefono": "+22 116 9334216",
+                    "email": "info@gammaspedizioni.nl"
+                },
+                "termini_contrattuali": {
+                    "modalita_fatturazione": "Fatturazione mensile",
+                    "modalita_pagamento": "Paypal",
+                    "iban": "NL36X6244345082",
+                    "banca": "Banca Beta"
+                }
+            },
+            "dati_operativi": {
+                "societa": "Gamma Spedizioni",
+                "indirizzo_recapiti_spedizione": {
+                    "via": "Corso Italia, 1",
+                    "cap": "54045",
+                    "citta": "Amsterdam",
+                    "provincia": "NL",
+                    "paese": "Paesi Bassi",
+                    "codice_paese": "NL",
+                    "telefono": "+73 397 6632300",
+                    "email": "logistica@gammaspedizioni.nl"
+                },
+                "listini_associati": [
+                    "standard_33748",
+                    "espresso_33748",
+                    "ore12_33748"
+                ],
+                "note": "Pagamento anticipato richiesto."
+            }
+        },
+        {
+            "codice_contatto": "86087",
+            "stato": "attivo",
+            "categoria": "CLIENTE",
+            "dati_legali": {
+                "ragione_sociale": "Sigma Movers",
+                "partita_iva": "JP32687307777",
+                "codice_fiscale": "SIG17282A",
+                "pec": "sigmamovers@pec.jp",
+                "codice_sdi": "F8058",
+                "indirizzo_recapiti": {
+                    "via": "Via Roma, 26",
+                    "cap": "41986",
+                    "citta": "Kyoto",
+                    "provincia": "JP",
+                    "paese": "Giappone",
+                    "codice_paese": "JP",
+                    "telefono": "+73 254 3564360",
+                    "email": "info@sigmamovers.jp"
+                },
+                "termini_contrattuali": {
+                    "modalita_fatturazione": "Fatturazione mensile",
+                    "modalita_pagamento": "Bonifico Bancario",
+                    "iban": "JP76X4277533725",
+                    "banca": "Credito Europa"
+                }
+            },
+            "dati_operativi": {
+                "societa": "Sigma Movers",
+                "indirizzo_recapiti_spedizione": {
+                    "via": "Corso Francia, 51",
+                    "cap": "61288",
+                    "citta": "Yokohama",
+                    "provincia": "JP",
+                    "paese": "Giappone",
+                    "codice_paese": "JP",
+                    "telefono": "+44 964 6511679",
+                    "email": "logistica@sigmamovers.jp"
+                },
+                "listini_associati": [
+                    "standard_86087",
+                    "espresso_86087",
+                    "ore12_86087"
+                ],
+                "note": "Pagamento anticipato richiesto."
+            }
+        },
+        {
+            "codice_contatto": "97620",
+            "stato": "attivo",
+            "categoria": "CLIENTE",
+            "dati_legali": {
+                "ragione_sociale": "Pi Shipping",
+                "partita_iva": "NO74647490210",
+                "codice_fiscale": "PI 82232A",
+                "pec": "pishipping@pec.no",
+                "codice_sdi": "D9704",
+                "indirizzo_recapiti": {
+                    "via": "Via Napoli, 23",
+                    "cap": "41125",
+                    "citta": "Drammen",
+                    "provincia": "NO",
+                    "paese": "Norvegia",
+                    "codice_paese": "NO",
+                    "telefono": "+57 151 6768006",
+                    "email": "info@pishipping.no"
+                },
+                "termini_contrattuali": {
+                    "modalita_fatturazione": "Rimessa diretta",
+                    "modalita_pagamento": "Paypal",
+                    "iban": "NO56X7363114061",
+                    "banca": "Banca Beta"
+                }
+            },
+            "dati_operativi": {
+                "societa": "Pi Shipping",
+                "indirizzo_recapiti_spedizione": {
+                    "via": "Corso Francia, 28",
+                    "cap": "95337",
+                    "citta": "Stavanger",
+                    "provincia": "NO",
+                    "paese": "Norvegia",
+                    "codice_paese": "NO",
+                    "telefono": "+78 856 3517922",
+                    "email": "logistica@pishipping.no"
+                },
+                "listini_associati": [
+                    "standard_97620",
+                    "espresso_97620",
+                    "ore12_97620"
+                ],
+                "note": "Gestione standard."
+            }
+        },
+        {
+            "codice_contatto": "38004",
+            "stato": "attivo",
+            "categoria": "FORNITORE",
+            "dati_legali": {
+                "ragione_sociale": "Delta Cargo",
+                "partita_iva": "SE12525547285",
+                "codice_fiscale": "DEL84156A",
+                "pec": "deltacargo@pec.se",
+                "codice_sdi": "C9937",
+                "indirizzo_recapiti": {
+                    "via": "Via Roma, 70",
+                    "cap": "53465",
+                    "citta": "Uppsala",
+                    "provincia": "SE",
+                    "paese": "Svezia",
+                    "codice_paese": "SE",
+                    "telefono": "+55 886 1070091",
+                    "email": "info@deltacargo.se"
+                },
+                "termini_contrattuali": {
+                    "modalita_fatturazione": "Fatturazione mensile",
+                    "modalita_pagamento": "Carta di Credito",
+                    "iban": "SE28X3139068703",
+                    "banca": "Credito Europa"
+                }
+            },
+            "dati_operativi": {
+                "societa": "Delta Cargo",
+                "indirizzo_recapiti_spedizione": {
+                    "via": "Corso Italia, 79",
+                    "cap": "84175",
+                    "citta": "Gotenborg",
+                    "provincia": "SE",
+                    "paese": "Svezia",
+                    "codice_paese": "SE",
+                    "telefono": "+21 294 9601887",
+                    "email": "logistica@deltacargo.se"
+                },
+                "listini_associati": [
+                    "standard_38004",
+                    "espresso_38004",
+                    "ore12_38004"
+                ],
+                "note": "Gestione standard."
+            }
+        },
+        {
+            "codice_contatto": "81557",
+            "stato": "attivo",
+            "categoria": "CLIENTE",
+            "dati_legali": {
+                "ragione_sociale": "Delta Cargo",
+                "partita_iva": "BE51669930998",
+                "codice_fiscale": "DEL11858A",
+                "pec": "deltacargo@pec.be",
+                "codice_sdi": "A9854",
+                "indirizzo_recapiti": {
+                    "via": "Via Napoli, 13",
+                    "cap": "86644",
+                    "citta": "Bruges",
+                    "provincia": "BE",
+                    "paese": "Belgio",
+                    "codice_paese": "BE",
+                    "telefono": "+79 571 5935298",
+                    "email": "info@deltacargo.be"
+                },
+                "termini_contrattuali": {
+                    "modalita_fatturazione": "Rimessa diretta",
+                    "modalita_pagamento": "Bonifico Bancario",
+                    "iban": "BE83X4863103720",
+                    "banca": "Banca Beta"
+                }
+            },
+            "dati_operativi": {
+                "societa": "Delta Cargo",
+                "indirizzo_recapiti_spedizione": {
+                    "via": "Corso Spagna, 51",
+                    "cap": "27357",
+                    "citta": "Gand",
+                    "provincia": "BE",
+                    "paese": "Belgio",
+                    "codice_paese": "BE",
+                    "telefono": "+20 108 6088799",
+                    "email": "logistica@deltacargo.be"
+                },
+                "listini_associati": [
+                    "standard_81557",
+                    "espresso_81557",
+                    "ore12_81557"
+                ],
+                "note": "Cliente con tariffe agevolate."
+            }
+        }
+    ]
+}

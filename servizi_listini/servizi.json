@@ -1,0 +1,156 @@
+{
+    "servizi": [
+        {
+            "codice_servizio": "AIR",
+            "nome_servizio": "Air Freight",
+            "colore": "#3498db",
+            "coef_vol": 0,
+            "import": false,
+            "calcolo_over": 1.50
+        },
+        {
+            "codice_servizio": "AIR-I",
+            "nome_servizio": "Air Freight Import",
+            "colore": "#3498db",
+            "coef_vol": 0,
+            "import": true,
+            "calcolo_over": 1.50
+        },
+        {
+            "codice_servizio": "CIT",
+            "nome_servizio": "Cittadino",
+            "colore": "#2ecc71",
+            "coef_vol": 0,
+            "import": false,
+            "calcolo_over": 0.00
+        },
+        {
+            "codice_servizio": "EPD",
+            "nome_servizio": "Expedited",
+            "colore": "#e74c3c",
+            "coef_vol": 5000,
+            "import": false,
+            "calcolo_over": 0.75
+        },
+        {
+            "codice_servizio": "EPD-I",
+            "nome_servizio": "Expedited Import",
+            "colore": "#e74c3c",
+            "coef_vol": 5000,
+            "import": true,
+            "calcolo_over": 0.75
+        },
+        {
+            "codice_servizio": "MED",
+            "nome_servizio": "Medical",
+            "colore": "#9b59b6",
+            "coef_vol": 5000,
+            "import": false,
+            "calcolo_over": 2.00
+        },
+        {
+            "codice_servizio": "MED-I",
+            "nome_servizio": "Medical Import",
+            "colore": "#9b59b6",
+            "coef_vol": 5000,
+            "import": true,
+            "calcolo_over": 2.00
+        },
+        {
+            "codice_servizio": "ORE_0900",
+            "nome_servizio": "Ore 9:00",
+            "colore": "#f1c40f",
+            "coef_vol": 5000,
+            "import": false,
+            "calcolo_over": 0.50
+        },
+        {
+            "codice_servizio": "ORE_1030",
+            "nome_servizio": "Ore 10:30",
+            "colore": "#d35400",
+            "coef_vol": 5000,
+            "import": false,
+            "calcolo_over": 0.50
+        },
+        {
+            "codice_servizio": "ORE_1200",
+            "nome_servizio": "Ore 12:00",
+            "colore": "#8e44ad",
+            "coef_vol": 5000,
+            "import": false,
+            "calcolo_over": 1.00
+        },
+        {
+            "codice_servizio": "ORE_1200-I",
+            "nome_servizio": "Ore 12:00 Import",
+            "colore": "#8e44ad",
+            "coef_vol": 5000,
+            "import": true,
+            "calcolo_over": 1.00
+        },
+        {
+            "codice_servizio": "SEA",
+            "nome_servizio": "Sea Freight",
+            "colore": "#34495e",
+            "coef_vol": 0,
+            "import": false,
+            "calcolo_over": 5.00
+        },
+        {
+            "codice_servizio": "STD",
+            "nome_servizio": "Standard",
+            "colore": "#95a5a6",
+            "coef_vol": 4000,
+            "import": false,
+            "calcolo_over": 0.00
+        },
+        {
+            "codice_servizio": "STD-I",
+            "nome_servizio": "Standard Import",
+            "colore": "#95a5a6",
+            "coef_vol": 4000,
+            "import": true,
+            "calcolo_over": 0.00
+        },
+        {
+            "codice_servizio": "EXP",
+            "nome_servizio": "Espresso",
+            "colore": "#16a085",
+            "coef_vol": 5000,
+            "import": false,
+            "calcolo_over": 10.00
+        },
+        {
+            "codice_servizio": "EXP-I",
+            "nome_servizio": "Espresso Import",
+            "colore": "#16a085",
+            "coef_vol": 5000,
+            "import": true,
+            "calcolo_over": 10.00
+        },
+        {
+            "codice_servizio": "TRAS",
+            "nome_servizio": "Trasloco",
+            "colore": "#16a085",
+            "coef_vol": 0,
+            "import": false,
+            "calcolo_over": 10.00
+        },
+        {
+            "codice_servizio": "SAV",
+            "nome_servizio": "Saver",
+            "colore": "#16a085",
+            "coef_vol": 5000,
+            "import": false,
+            "calcolo_over": 10.00
+        },
+        {
+            "codice_servizio": "SAV-I",
+            "nome_servizio": "Saver Import",
+            "colore": "#16a085",
+            "coef_vol": 5000,
+            "import": false,
+            "calcolo_over": 10.00
+        }
+    ]
+}

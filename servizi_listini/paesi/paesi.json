@@ -1,0 +1,966 @@
+[
+    {
+        "nome": "Afghanistan",
+        "codice_paese": "AF"
+    },
+    {
+        "nome": "Albania",
+        "codice_paese": "AL"
+    },
+    {
+        "nome": "Algeria",
+        "codice_paese": "DZ"
+    },
+    {
+        "nome": "Andorra",
+        "codice_paese": "AD"
+    },
+    {
+        "nome": "Angola",
+        "codice_paese": "AO"
+    },
+    {
+        "nome": "Anguilla",
+        "codice_paese": "AI"
+    },
+    {
+        "nome": "Antigua",
+        "codice_paese": "AG"
+    },
+    {
+        "nome": "Argentina",
+        "codice_paese": "AR"
+    },
+    {
+        "nome": "Armenia",
+        "codice_paese": "AM"
+    },
+    {
+        "nome": "Aruba",
+        "codice_paese": "AW"
+    },
+    {
+        "nome": "Australia",
+        "codice_paese": "AU"
+    },
+    {
+        "nome": "Austria",
+        "codice_paese": "AT"
+    },
+    {
+        "nome": "Azerbaijan",
+        "codice_paese": "AZ"
+    },
+    {
+        "nome": "Azzorre",
+        "codice_paese": "PT"
+    },
+    {
+        "nome": "Bahamas",
+        "codice_paese": "BS"
+    },
+    {
+        "nome": "Bahrain",
+        "codice_paese": "BH"
+    },
+    {
+        "nome": "Bangladesh",
+        "codice_paese": "BD"
+    },
+    {
+        "nome": "Barbados",
+        "codice_paese": "BB"
+    },
+    {
+        "nome": "Belarus",
+        "codice_paese": "BY"
+    },
+    {
+        "nome": "Belgio",
+        "codice_paese": "BE"
+    },
+    {
+        "nome": "Belize",
+        "codice_paese": "BZ"
+    },
+    {
+        "nome": "Benin",
+        "codice_paese": "BJ"
+    },
+    {
+        "nome": "Bermuda",
+        "codice_paese": "BM"
+    },
+    {
+        "nome": "Bhutan",
+        "codice_paese": "BT"
+    },
+    {
+        "nome": "Bolivia",
+        "codice_paese": "BO"
+    },
+    {
+        "nome": "Bonaire",
+        "codice_paese": "BQ"
+    },
+    {
+        "nome": "Bosnia E Herzegovina",
+        "codice_paese": "BA"
+    },
+    {
+        "nome": "Botswana",
+        "codice_paese": "BW"
+    },
+    {
+        "nome": "Brasile",
+        "codice_paese": "BR"
+    },
+    {
+        "nome": "Brunei",
+        "codice_paese": "BN"
+    },
+    {
+        "nome": "Bulgaria",
+        "codice_paese": "BG"
+    },
+    {
+        "nome": "Burkina Faso",
+        "codice_paese": "BF"
+    },
+    {
+        "nome": "Burundi",
+        "codice_paese": "BI"
+    },
+    {
+        "nome": "Cambogia",
+        "codice_paese": "KH"
+    },
+    {
+        "nome": "Camerun",
+        "codice_paese": "CM"
+    },
+    {
+        "nome": "Canada",
+        "codice_paese": "CA"
+    },
+    {
+        "nome": "Capo Verde",
+        "codice_paese": "CV"
+    },
+    {
+        "nome": "Centrafricana Repubblica",
+        "codice_paese": "CF"
+    },
+    {
+        "nome": "Ceuta",
+        "codice_paese": "ES"
+    },
+    {
+        "nome": "Chad",
+        "codice_paese": "TD"
+    },
+    {
+        "nome": "Chile",
+        "codice_paese": "CL"
+    },
+    {
+        "nome": "China",
+        "codice_paese": "CN"
+    },
+    {
+        "nome": "Cipro",
+        "codice_paese": "CY"
+    },
+    {
+        "nome": "Colombia",
+        "codice_paese": "CO"
+    },
+    {
+        "nome": "Commonwealth Isole Marianne",
+        "codice_paese": "MP"
+    },
+    {
+        "nome": "Comoros",
+        "codice_paese": "KM"
+    },
+    {
+        "nome": "Congo",
+        "codice_paese": "CG"
+    },
+    {
+        "nome": "Congo Repubblica",
+        "codice_paese": "CG"
+    },
+    {
+        "nome": "Corea Del Nord",
+        "codice_paese": "KP"
+    },
+    {
+        "nome": "Corea Del Sud",
+        "codice_paese": "KR"
+    },
+    {
+        "nome": "Costa D'avorio",
+        "codice_paese": "CI"
+    },
+    {
+        "nome": "Costa Rica",
+        "codice_paese": "CR"
+    },
+    {
+        "nome": "Croazia",
+        "codice_paese": "HR"
+    },
+    {
+        "nome": "Cuba",
+        "codice_paese": "CU"
+    },
+    {
+        "nome": "Curacao",
+        "codice_paese": "CW"
+    },
+    {
+        "nome": "Danimarca",
+        "codice_paese": "DK"
+    },
+    {
+        "nome": "Djibouti",
+        "codice_paese": "DJ"
+    },
+    {
+        "nome": "Dominica",
+        "codice_paese": "DM"
+    },
+    {
+        "nome": "East Timor",
+        "codice_paese": "TL"
+    },
+    {
+        "nome": "Ecuador",
+        "codice_paese": "EC"
+    },
+    {
+        "nome": "Egitto",
+        "codice_paese": "EG"
+    },
+    {
+        "nome": "El Salvador",
+        "codice_paese": "SV"
+    },
+    {
+        "nome": "Emirati Arabi Uniti",
+        "codice_paese": "AE"
+    },
+    {
+        "nome": "Eritrea",
+        "codice_paese": "ER"
+    },
+    {
+        "nome": "Estonia",
+        "codice_paese": "EE"
+    },
+    {
+        "nome": "Etiopia",
+        "codice_paese": "ET"
+    },
+    {
+        "nome": "Fiji",
+        "codice_paese": "FJ"
+    },
+    {
+        "nome": "Filippine",
+        "codice_paese": "PH"
+    },
+    {
+        "nome": "Finlandia",
+        "codice_paese": "FI"
+    },
+    {
+        "nome": "Francia",
+        "codice_paese": "FR"
+    },
+    {
+        "nome": "Gabon",
+        "codice_paese": "GA"
+    },
+    {
+        "nome": "Gambia",
+        "codice_paese": "GM"
+    },
+    {
+        "nome": "Georgia",
+        "codice_paese": "GE"
+    },
+    {
+        "nome": "Germania",
+        "codice_paese": "DE"
+    },
+    {
+        "nome": "Ghana",
+        "codice_paese": "GH"
+    },
+    {
+        "nome": "Giamaica",
+        "codice_paese": "JM"
+    },
+    {
+        "nome": "Giappone",
+        "codice_paese": "JP"
+    },
+    {
+        "nome": "Gibilterra",
+        "codice_paese": "GI"
+    },
+    {
+        "nome": "Giordania",
+        "codice_paese": "JO"
+    },
+    {
+        "nome": "Grecia",
+        "codice_paese": "GR"
+    },
+    {
+        "nome": "Grenada",
+        "codice_paese": "GD"
+    },
+    {
+        "nome": "Groenlandia",
+        "codice_paese": "GL"
+    },
+    {
+        "nome": "Guadalupa",
+        "codice_paese": "GP"
+    },
+    {
+        "nome": "Guam",
+        "codice_paese": "GU"
+    },
+    {
+        "nome": "Guatemala",
+        "codice_paese": "GT"
+    },
+    {
+        "nome": "Guernsey",
+        "codice_paese": "GG"
+    },
+    {
+        "nome": "Guinea Bissau",
+        "codice_paese": "GW"
+    },
+    {
+        "nome": "Guinea Equatorale",
+        "codice_paese": "GQ"
+    },
+    {
+        "nome": "Guinea Repubblica",
+        "codice_paese": "GN"
+    },
+    {
+        "nome": "Guyana Francese",
+        "codice_paese": "GF"
+    },
+    {
+        "nome": "Guyana Inglese",
+        "codice_paese": "GY"
+    },
+    {
+        "nome": "Haiti",
+        "codice_paese": "HT"
+    },
+    {
+        "nome": "Honduras",
+        "codice_paese": "HN"
+    },
+    {
+        "nome": "Hong Kong",
+        "codice_paese": "HK"
+    },
+    {
+        "nome": "India",
+        "codice_paese": "IN"
+    },
+    {
+        "nome": "Indonesia",
+        "codice_paese": "ID"
+    },
+    {
+        "nome": "Iran",
+        "codice_paese": "IR"
+    },
+    {
+        "nome": "Iraq",
+        "codice_paese": "IQ"
+    },
+    {
+        "nome": "Irlanda",
+        "codice_paese": "IE"
+    },
+    {
+        "nome": "Islanda",
+        "codice_paese": "IS"
+    },
+    {
+        "nome": "Isola Di Man",
+        "codice_paese": "IM"
+    },
+    {
+        "nome": "Isola Reunion",
+        "codice_paese": "RE"
+    },
+    {
+        "nome": "Isole Baleari",
+        "codice_paese": "ES"
+    },
+    {
+        "nome": "Isole Canarie",
+        "codice_paese": "ES"
+    },
+    {
+        "nome": "Isole Cayman",
+        "codice_paese": "KY"
+    },
+    {
+        "nome": "Isole Cook",
+        "codice_paese": "CK"
+    },
+    {
+        "nome": "Isole Falkland",
+        "codice_paese": "FK"
+    },
+    {
+        "nome": "Isole Faroe",
+        "codice_paese": "FO"
+    },
+    {
+        "nome": "Isole Solomon",
+        "codice_paese": "SB"
+    },
+    {
+        "nome": "Isole Turks E Caicos",
+        "codice_paese": "TC"
+    },
+    {
+        "nome": "Isole Vergini Americane",
+        "codice_paese": "VI"
+    },
+    {
+        "nome": "Isole Vergini Inglesi",
+        "codice_paese": "VG"
+    },
+    {
+        "nome": "Israele",
+        "codice_paese": "IL"
+    },
+    {
+        "nome": "Italia",
+        "codice_paese": "IT"
+    },
+    {
+        "nome": "Jersey",
+        "codice_paese": "JE"
+    },
+    {
+        "nome": "Kazakhstan",
+        "codice_paese": "KZ"
+    },
+    {
+        "nome": "Kenya",
+        "codice_paese": "KE"
+    },
+    {
+        "nome": "Kiribati",
+        "codice_paese": "KI"
+    },
+    {
+        "nome": "Kosovo",
+        "codice_paese": "XK"
+    },
+    {
+        "nome": "Kuwait",
+        "codice_paese": "KW"
+    },
+    {
+        "nome": "Kyrgyzstan",
+        "codice_paese": "KG"
+    },
+    {
+        "nome": "Lao Peoples Democratic Republic",
+        "codice_paese": "LA"
+    },
+    {
+        "nome": "Latvia",
+        "codice_paese": "LV"
+    },
+    {
+        "nome": "Lesotho",
+        "codice_paese": "LS"
+    },
+    {
+        "nome": "Libano",
+        "codice_paese": "LB"
+    },
+    {
+        "nome": "Liberia",
+        "codice_paese": "LR"
+    },
+    {
+        "nome": "Libya",
+        "codice_paese": "LY"
+    },
+    {
+        "nome": "Liechtenstein",
+        "codice_paese": "LI"
+    },
+    {
+        "nome": "Lituania",
+        "codice_paese": "LT"
+    },
+    {
+        "nome": "Lussemburgo",
+        "codice_paese": "LU"
+    },
+    {
+        "nome": "Macao",
+        "codice_paese": "MO"
+    },
+    {
+        "nome": "Macedonia",
+        "codice_paese": "MK"
+    },
+    {
+        "nome": "Madagascar",
+        "codice_paese": "MG"
+    },
+    {
+        "nome": "Madeira",
+        "codice_paese": "PT"
+    },
+    {
+        "nome": "Malawi",
+        "codice_paese": "MW"
+    },
+    {
+        "nome": "Malaysia",
+        "codice_paese": "MY"
+    },
+    {
+        "nome": "Maldives",
+        "codice_paese": "MV"
+    },
+    {
+        "nome": "Mali",
+        "codice_paese": "ML"
+    },
+    {
+        "nome": "Malta",
+        "codice_paese": "MT"
+    },
+    {
+        "nome": "Marocco",
+        "codice_paese": "MA"
+    },
+    {
+        "nome": "Marshall Islands",
+        "codice_paese": "MH"
+    },
+    {
+        "nome": "Martinique",
+        "codice_paese": "MQ"
+    },
+    {
+        "nome": "Mauritania",
+        "codice_paese": "MR"
+    },
+    {
+        "nome": "Mauritius",
+        "codice_paese": "MU"
+    },
+    {
+        "nome": "Mayotte",
+        "codice_paese": "YT"
+    },
+    {
+        "nome": "Melilla",
+        "codice_paese": "ES"
+    },
+    {
+        "nome": "Messico",
+        "codice_paese": "MX"
+    },
+    {
+        "nome": "Micronesia, Federated States Of",
+        "codice_paese": "FM"
+    },
+    {
+        "nome": "Moldavia",
+        "codice_paese": "MD"
+    },
+    {
+        "nome": "Monaco",
+        "codice_paese": "MC"
+    },
+    {
+        "nome": "Mongolia",
+        "codice_paese": "MN"
+    },
+    {
+        "nome": "Montenegro, Republic Of",
+        "codice_paese": "ME"
+    },
+    {
+        "nome": "Montserrat",
+        "codice_paese": "MS"
+    },
+    {
+        "nome": "Mozambique",
+        "codice_paese": "MZ"
+    },
+    {
+        "nome": "Myanmar",
+        "codice_paese": "MM"
+    },
+    {
+        "nome": "Namibia",
+        "codice_paese": "NA"
+    },
+    {
+        "nome": "Nepal",
+        "codice_paese": "NP"
+    },
+    {
+        "nome": "Nevis",
+        "codice_paese": "KN"
+    },
+    {
+        "nome": "Nicaragua",
+        "codice_paese": "NI"
+    },
+    {
+        "nome": "Niger",
+        "codice_paese": "NE"
+    },
+    {
+        "nome": "Nigeria",
+        "codice_paese": "NG"
+    },
+    {
+        "nome": "Niue",
+        "codice_paese": "NU"
+    },
+    {
+        "nome": "Norvegia",
+        "codice_paese": "NO"
+    },
+    {
+        "nome": "Nuova Caledonia",
+        "codice_paese": "NC"
+    },
+    {
+        "nome": "Nuova Zelanda",
+        "codice_paese": "NZ"
+    },
+    {
+        "nome": "Olanda",
+        "codice_paese": "NL"
+    },
+    {
+        "nome": "Oman",
+        "codice_paese": "OM"
+    },
+    {
+        "nome": "Pakistan",
+        "codice_paese": "PK"
+    },
+    {
+        "nome": "Palau",
+        "codice_paese": "PW"
+    },
+    {
+        "nome": "Panama",
+        "codice_paese": "PA"
+    },
+    {
+        "nome": "Papua Nuova Guinea",
+        "codice_paese": "PG"
+    },
+    {
+        "nome": "Paraguay",
+        "codice_paese": "PY"
+    },
+    {
+        "nome": "Peru",
+        "codice_paese": "PE"
+    },
+    {
+        "nome": "Polonia",
+        "codice_paese": "PL"
+    },
+    {
+        "nome": "Portogallo",
+        "codice_paese": "PT"
+    },
+    {
+        "nome": "Puerto Rico",
+        "codice_paese": "PR"
+    },
+    {
+        "nome": "Qatar",
+        "codice_paese": "QA"
+    },
+    {
+        "nome": "Repubblica Ceca",
+        "codice_paese": "CZ"
+    },
+    {
+        "nome": "Repubblica Di Nauru",
+        "codice_paese": "NR"
+    },
+    {
+        "nome": "Repubblica Dominicana",
+        "codice_paese": "DO"
+    },
+    {
+        "nome": "Roma 1",
+        "codice_paese": "RM1"
+    },
+    {
+        "nome": "Roma 2",
+        "codice_paese": "RM2"
+    },
+    {
+        "nome": "Romania",
+        "codice_paese": "RO"
+    },
+    {
+        "nome": "Russia",
+        "codice_paese": "RU"
+    },
+    {
+        "nome": "Rwanda",
+        "codice_paese": "RW"
+    },
+    {
+        "nome": "Saint Helena",
+        "codice_paese": "SH"
+    },
+    {
+        "nome": "Samoa",
+        "codice_paese": "WS"
+    },
+    {
+        "nome": "Samoa Americane",
+        "codice_paese": "AS"
+    },
+    {
+        "nome": "San Marino",
+        "codice_paese": "SM"
+    },
+    {
+        "nome": "Sao Tome E Principe",
+        "codice_paese": "ST"
+    },
+    {
+        "nome": "Saudi Arabia",
+        "codice_paese": "SA"
+    },
+    {
+        "nome": "Senegal",
+        "codice_paese": "SN"
+    },
+    {
+        "nome": "Serbia",
+        "codice_paese": "RS"
+    },
+    {
+        "nome": "Seychelles",
+        "codice_paese": "SC"
+    },
+    {
+        "nome": "Sierra Leone",
+        "codice_paese": "SL"
+    },
+    {
+        "nome": "Singapore",
+        "codice_paese": "SG"
+    },
+    {
+        "nome": "Slovacchia",
+        "codice_paese": "SK"
+    },
+    {
+        "nome": "Slovenia",
+        "codice_paese": "SI"
+    },
+    {
+        "nome": "Somalia",
+        "codice_paese": "SO"
+    },
+    {
+        "nome": "Somaliland (nord Somalia)",
+        "codice_paese": "SO"
+    },
+    {
+        "nome": "Spagna",
+        "codice_paese": "ES"
+    },
+    {
+        "nome": "Sri Lanka",
+        "codice_paese": "LK"
+    },
+    {
+        "nome": "St. Barthelemy",
+        "codice_paese": "BL"
+    },
+    {
+        "nome": "St. Eustatius",
+        "codice_paese": "BQ"
+    },
+    {
+        "nome": "St. Kitts",
+        "codice_paese": "KN"
+    },
+    {
+        "nome": "St. Lucia",
+        "codice_paese": "LC"
+    },
+    {
+        "nome": "St. Maarten",
+        "codice_paese": "SX"
+    },
+    {
+        "nome": "St. Vincent",
+        "codice_paese": "VC"
+    },
+    {
+        "nome": "Stati Uniti D'America",
+        "codice_paese": "US"
+    },
+    {
+        "nome": "Sud Africa",
+        "codice_paese": "ZA"
+    },
+    {
+        "nome": "Sudan",
+        "codice_paese": "SD"
+    },
+    {
+        "nome": "Sudan Del Sud",
+        "codice_paese": "SS"
+    },
+    {
+        "nome": "Suriname",
+        "codice_paese": "SR"
+    },
+    {
+        "nome": "Svezia",
+        "codice_paese": "SE"
+    },
+    {
+        "nome": "Svizzera",
+        "codice_paese": "CH"
+    },
+    {
+        "nome": "Swaziland",
+        "codice_paese": "SZ"
+    },
+    {
+        "nome": "Syria",
+        "codice_paese": "SY"
+    },
+    {
+        "nome": "Tahiti",
+        "codice_paese": "PF"
+    },
+    {
+        "nome": "Taiwan",
+        "codice_paese": "TW"
+    },
+    {
+        "nome": "Tajikistan",
+        "codice_paese": "TJ"
+    },
+    {
+        "nome": "Tanzania",
+        "codice_paese": "TZ"
+    },
+    {
+        "nome": "Thailandia",
+        "codice_paese": "TH"
+    },
+    {
+        "nome": "Togo",
+        "codice_paese": "TG"
+    },
+    {
+        "nome": "Tonga",
+        "codice_paese": "TO"
+    },
+    {
+        "nome": "Trinidad E Tobago",
+        "codice_paese": "TT"
+    },
+    {
+        "nome": "Tunisia",
+        "codice_paese": "TN"
+    },
+    {
+        "nome": "Turchia",
+        "codice_paese": "TR"
+    },
+    {
+        "nome": "Turkmenistan",
+        "codice_paese": "TM"
+    },
+    {
+        "nome": "Tuvalu",
+        "codice_paese": "TV"
+    },
+    {
+        "nome": "Ucraina",
+        "codice_paese": "UA"
+    },
+    {
+        "nome": "Uganda",
+        "codice_paese": "UG"
+    },
+    {
+        "nome": "Ungheria",
+        "codice_paese": "HU"
+    },
+    {
+        "nome": "United Kingdom",
+        "codice_paese": "GB"
+    },
+    {
+        "nome": "Uruguay",
+        "codice_paese": "UY"
+    },
+    {
+        "nome": "Uzbekistan",
+        "codice_paese": "UZ"
+    },
+    {
+        "nome": "Vanuatu",
+        "codice_paese": "VU"
+    },
+    {
+        "nome": "Venezuela",
+        "codice_paese": "VE"
+    },
+    {
+        "nome": "Vietnam",
+        "codice_paese": "VN"
+    },
+    {
+        "nome": "Yemen",
+        "codice_paese": "YE"
+    },
+    {
+        "nome": "Zambia",
+        "codice_paese": "ZM"
+    },
+    {
+        "nome": "Zimbabwe",
+        "codice_paese": "ZW"
+    }
+]

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizza Zone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Raleway', sans-serif; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f4f4f4; }
+        .error-message { color: red; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h2>Elenco Zone e Paesi</h2>
+    <div id="error" class="error-message"></div>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome Paese</th>
+                <th>Sigla</th>
+                <th>Categoria</th>
+                <th>Zona</th>
+                <th>Prefisso</th>
+                <th>Codice ISO</th>
+                <th>Tempi STD</th>
+                <th>Tempi EXP</th>
+                <th>Note</th>
+            </tr>
+        </thead>
+        <tbody id="zoneTableBody">
+            <!-- Dati caricati dinamicamente -->
+        </tbody>
+    </table>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            fetch('../zone/zone.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! Status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    const tableBody = document.getElementById("zoneTableBody");
+                    const sortedKeys = Object.keys(data).sort(); // Ordina i nomi dei paesi in ordine alfabetico
+                    
+                    sortedKeys.forEach(paese => {
+                        let zona = data[paese];
+                        let row = `<tr>
+                            <td>${paese}</td>
+                            <td>${codice.paese}</td>
+                            <td>${zona.categoria}</td>
+                            <td>${zona.zona ? zona.zona : ""}</td>
+                            <td>${zona.prefisso ? zona.prefisso : ""}</td>
+                            <td>${zona.codice_iso ? zona.codice_iso : ""}</td>
+                            <td>${zona.tempi_std ? zona.tempi_std : ""}</td>
+                            <td>${zona.tempi_exp ? zona.tempi_exp : ""}</td>
+                            <td>${zona.note ? zona.note : ""}</td>
+                        </tr>`;
+                        tableBody.innerHTML += row;
+                    });
+                })
+                .catch(error => {
+                    console.error('Errore nel caricamento del JSON:', error);
+                    document.getElementById("error").textContent = "Errore nel caricamento dei dati. Assicurati che 'zone.json' sia accessibile.";
+                });
+        });
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,866 @@
+{
+    "codice_servizio": "SAV",
+    "nome_servizio": "Saver",
+    "codice_listino": "saver_cash",
+    "tipo_listino": "export",
+    "tariffe": {
+        "ZIT1": {
+            "ENV": {
+                "0.5": {
+                    "tariffa_originale": 17.14,
+                    "sconto_percentuale": 10,
+                    "tariffa_finale": 17.14
+                }
+            },
+            "DOCS": {
+                "0.5": {
+                    "tariffa_originale": 17.14,
+                    "sconto_percentuale": 10,
+                    "tariffa_finale": 17.14
+                },
+                "1.5": {
+                    "tariffa_originale": 20.95,
+                    "sconto_percentuale": 10,
+                    "tariffa_finale": 20.95
+                },
+                "2.5": {
+                    "tariffa_originale": 24.75,
+                    "sconto_percentuale": 10,
+                    "tariffa_finale": 24.75
+                }
+            },
+            "PKG": {
+                "0.5": {
+                    "tariffa_originale": 17.83,
+                    "sconto_percentuale": 10,
+                    "tariffa_finale": 17.83
+                },
+                "1.0": {
+                    "tariffa_originale": 18.52,
+                    "sconto_percentuale": 10,
+                    "tariffa_finale": 18.52
+                },
+                "2.0": {
+                    "tariffa_originale": 19.91,
+                    "sconto_percentuale": 10,
+                    "tariffa_finale": 19.91
+                },
+                "3.0": {
+                    "tariffa_originale": 21.29,
+                    "sconto_percentuale": 10,
+                    "tariffa_finale": 21.29
+                },
+                "5.0": {
+                    "tariffa_originale": 24.07,
+                    "sconto_percentuale": 10,
+                    "tariffa_finale": 24.07
+                },
+                "10.0": {
+                    "tariffa_originale": 30.99,
+                    "sconto_percentuale": 10,
+                    "tariffa_finale": 30.99
+                },
+                "15.0": {
+                    "tariffa_originale": 37.92,
+                    "sconto_percentuale": 10,
+                    "tariffa_finale": 37.92
+                },
+                "20.0": {
+                    "tariffa_originale": 44.84,
+                    "sconto_percentuale": 10,
+                    "tariffa_finale": 44.84
+                },
+                "25.0": {
+                    "tariffa_originale": 51.77,
+                    "sconto_percentuale": 10,
+                    "tariffa_finale": 51.77
+                },
+                "30.0": {
+                    "tariffa_originale": 58.69,
+                    "sconto_percentuale": 10,
+                    "tariffa_finale": 58.69
+                }
+            }
+        },
+        "Z1": {
+            "ENV": {
+                "0.5": {
+                    "tariffa_originale": 19.04,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 19.04
+                }
+            },
+            "DOCS": {
+                "0.5": {
+                    "tariffa_originale": 19.04,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 19.04
+                },
+                "1.5": {
+                    "tariffa_originale": 24.28,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 24.28
+                },
+                "2.5": {
+                    "tariffa_originale": 27.5,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 27.5
+                }
+            },
+            "PKG": {
+                "0.5": {
+                    "tariffa_originale": 19.81,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 19.81
+                },
+                "1.0": {
+                    "tariffa_originale": 20.58,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 20.58
+                },
+                "2.0": {
+                    "tariffa_originale": 22.12,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 22.12
+                },
+                "3.0": {
+                    "tariffa_originale": 23.66,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 23.66
+                },
+                "5.0": {
+                    "tariffa_originale": 26.74,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 26.74
+                },
+                "10.0": {
+                    "tariffa_originale": 34.43,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 34.43
+                },
+                "15.0": {
+                    "tariffa_originale": 42.13,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 42.13
+                },
+                "20.0": {
+                    "tariffa_originale": 49.82,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 49.82
+                },
+                "25.0": {
+                    "tariffa_originale": 57.52,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 57.52
+                },
+                "30.0": {
+                    "tariffa_originale": 65.21,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 65.21
+                }
+            }
+        },
+        "Z2": {
+            "ENV": {
+                "0.5": {
+                    "tariffa_originale": 19.04,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 19.04
+                }
+            },
+            "DOCS": {
+                "0.5": {
+                    "tariffa_originale": 19.04,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 19.04
+                },
+                "1.5": {
+                    "tariffa_originale": 24.28,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 24.28
+                },
+                "2.5": {
+                    "tariffa_originale": 27.5,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 27.5
+                }
+            },
+            "PKG": {
+                "0.5": {
+                    "tariffa_originale": 19.81,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 19.81
+                },
+                "1.0": {
+                    "tariffa_originale": 20.58,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 20.58
+                },
+                "2.0": {
+                    "tariffa_originale": 22.12,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 22.12
+                },
+                "3.0": {
+                    "tariffa_originale": 23.66,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 23.66
+                },
+                "5.0": {
+                    "tariffa_originale": 26.74,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 26.74
+                },
+                "10.0": {
+                    "tariffa_originale": 34.43,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 34.43
+                },
+                "15.0": {
+                    "tariffa_originale": 42.13,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 42.13
+                },
+                "20.0": {
+                    "tariffa_originale": 49.82,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 49.82
+                },
+                "25.0": {
+                    "tariffa_originale": 57.52,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 57.52
+                },
+                "30.0": {
+                    "tariffa_originale": 65.21,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 65.21
+                }
+            }
+        },
+        "Z10": {
+            "ENV": {
+                "0.5": {
+                    "tariffa_originale": 19.04,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 19.04
+                }
+            },
+            "DOCS": {
+                "0.5": {
+                    "tariffa_originale": 19.04,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 19.04
+                },
+                "1.5": {
+                    "tariffa_originale": 21.28,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 21.28
+                },
+                "2.5": {
+                    "tariffa_originale": 27.5,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 27.5
+                }
+            },
+            "PKG": {
+                "0.5": {
+                    "tariffa_originale": 19.81,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 19.81
+                },
+                "1.0": {
+                    "tariffa_originale": 20.58,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 20.58
+                },
+                "2.0": {
+                    "tariffa_originale": 22.12,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 22.12
+                },
+                "3.0": {
+                    "tariffa_originale": 23.66,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 23.66
+                },
+                "5.0": {
+                    "tariffa_originale": 26.74,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 26.74
+                },
+                "10.0": {
+                    "tariffa_originale": 34.43,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 34.43
+                },
+                "15.0": {
+                    "tariffa_originale": 42.13,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 42.13
+                },
+                "20.0": {
+                    "tariffa_originale": 49.82,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 49.82
+                },
+                "25.0": {
+                    "tariffa_originale": 57.52,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 57.52
+                },
+                "30.0": {
+                    "tariffa_originale": 65.21,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 65.21
+                }
+            }
+        },
+        "Z3": {
+            "ENV": {
+                "0.5": {
+                    "tariffa_originale": 19.04,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 19.04
+                }
+            },
+            "DOCS": {
+                "0.5": {
+                    "tariffa_originale": 19.04,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 19.04
+                },
+                "1.5": {
+                    "tariffa_originale": 20.28,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 20.28
+                },
+                "2.5": {
+                    "tariffa_originale": 27.5,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 27.5
+                }
+            },
+            "PKG": {
+                "0.5": {
+                    "tariffa_originale": 19.81,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 19.81
+                },
+                "1.0": {
+                    "tariffa_originale": 20.58,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 20.58
+                },
+                "2.0": {
+                    "tariffa_originale": 22.12,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 22.12
+                },
+                "3.0": {
+                    "tariffa_originale": 23.66,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 23.66
+                },
+                "5.0": {
+                    "tariffa_originale": 26.74,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 26.74
+                },
+                "10.0": {
+                    "tariffa_originale": 34.43,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 34.43
+                },
+                "15.0": {
+                    "tariffa_originale": 42.13,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 42.13
+                },
+                "20.0": {
+                    "tariffa_originale": 49.82,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 49.82
+                },
+                "25.0": {
+                    "tariffa_originale": 57.52,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 57.52
+                },
+                "30.0": {
+                    "tariffa_originale": 65.21,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 65.21
+                }
+            }
+        },
+        "Z4": {
+            "ENV": {
+                "0.5": {
+                    "tariffa_originale": 19.04,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 19.04
+                }
+            },
+            "DOCS": {
+                "0.5": {
+                    "tariffa_originale": 19.04,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 19.04
+                },
+                "1.5": {
+                    "tariffa_originale": 22.58,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 22.58
+                },
+                "2.5": {
+                    "tariffa_originale": 27.5,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 27.5
+                }
+            },
+            "PKG": {
+                "0.5": {
+                    "tariffa_originale": 19.81,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 19.81
+                },
+                "1.0": {
+                    "tariffa_originale": 20.58,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 20.58
+                },
+                "2.0": {
+                    "tariffa_originale": 22.12,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 22.12
+                },
+                "3.0": {
+                    "tariffa_originale": 23.66,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 23.66
+                },
+                "5.0": {
+                    "tariffa_originale": 26.74,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 26.74
+                },
+                "10.0": {
+                    "tariffa_originale": 34.43,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 34.43
+                },
+                "15.0": {
+                    "tariffa_originale": 42.13,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 42.13
+                },
+                "20.0": {
+                    "tariffa_originale": 49.82,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 49.82
+                },
+                "25.0": {
+                    "tariffa_originale": 57.52,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 57.52
+                },
+                "30.0": {
+                    "tariffa_originale": 65.21,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 65.21
+                }
+            }
+        },
+        "Z5": {
+            "ENV": {
+                "0.5": {
+                    "tariffa_originale": 19.04,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 19.04
+                }
+            },
+            "DOCS": {
+                "0.5": {
+                    "tariffa_originale": 19.04,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 19.04
+                },
+                "1.5": {
+                    "tariffa_originale": 19.28,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 19.28
+                },
+                "2.5": {
+                    "tariffa_originale": 27.5,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 27.5
+                }
+            },
+            "PKG": {
+                "0.5": {
+                    "tariffa_originale": 19.81,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 19.81
+                },
+                "1.0": {
+                    "tariffa_originale": 20.58,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 20.58
+                },
+                "2.0": {
+                    "tariffa_originale": 22.12,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 22.12
+                },
+                "3.0": {
+                    "tariffa_originale": 23.66,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 23.66
+                },
+                "5.0": {
+                    "tariffa_originale": 26.74,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 26.74
+                },
+                "10.0": {
+                    "tariffa_originale": 34.43,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 34.43
+                },
+                "15.0": {
+                    "tariffa_originale": 42.13,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 42.13
+                },
+                "20.0": {
+                    "tariffa_originale": 49.82,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 49.82
+                },
+                "25.0": {
+                    "tariffa_originale": 57.52,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 57.52
+                },
+                "30.0": {
+                    "tariffa_originale": 65.21,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 65.21
+                }
+            }
+        },
+        "Z6": {
+            "ENV": {
+                "0.5": {
+                    "tariffa_originale": 19.04,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 19.04
+                }
+            },
+            "DOCS": {
+                "0.5": {
+                    "tariffa_originale": 19.04,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 19.04
+                },
+                "1.5": {
+                    "tariffa_originale": 25.18,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 25.18
+                },
+                "2.5": {
+                    "tariffa_originale": 27.5,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 27.5
+                }
+            },
+            "PKG": {
+                "0.5": {
+                    "tariffa_originale": 19.81,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 19.81
+                },
+                "1.0": {
+                    "tariffa_originale": 20.58,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 20.58
+                },
+                "2.0": {
+                    "tariffa_originale": 22.12,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 22.12
+                },
+                "3.0": {
+                    "tariffa_originale": 23.66,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 23.66
+                },
+                "5.0": {
+                    "tariffa_originale": 26.74,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 26.74
+                },
+                "10.0": {
+                    "tariffa_originale": 34.43,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 34.43
+                },
+                "15.0": {
+                    "tariffa_originale": 42.13,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 42.13
+                },
+                "20.0": {
+                    "tariffa_originale": 49.82,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 49.82
+                },
+                "25.0": {
+                    "tariffa_originale": 57.52,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 57.52
+                },
+                "30.0": {
+                    "tariffa_originale": 65.21,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 65.21
+                }
+            }
+        },
+        "Z7": {
+            "ENV": {
+                "0.5": {
+                    "tariffa_originale": 19.04,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 19.04
+                }
+            },
+            "DOCS": {
+                "0.5": {
+                    "tariffa_originale": 19.04,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 19.04
+                },
+                "1.5": {
+                    "tariffa_originale": 26.28,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 26.28
+                },
+                "2.5": {
+                    "tariffa_originale": 27.5,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 27.5
+                }
+            },
+            "PKG": {
+                "0.5": {
+                    "tariffa_originale": 19.81,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 19.81
+                },
+                "1.0": {
+                    "tariffa_originale": 20.58,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 20.58
+                },
+                "2.0": {
+                    "tariffa_originale": 22.12,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 22.12
+                },
+                "3.0": {
+                    "tariffa_originale": 23.66,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 23.66
+                },
+                "5.0": {
+                    "tariffa_originale": 26.74,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 26.74
+                },
+                "10.0": {
+                    "tariffa_originale": 34.43,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 34.43
+                },
+                "15.0": {
+                    "tariffa_originale": 42.13,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 42.13
+                },
+                "20.0": {
+                    "tariffa_originale": 49.82,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 49.82
+                },
+                "25.0": {
+                    "tariffa_originale": 57.52,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 57.52
+                },
+                "30.0": {
+                    "tariffa_originale": 65.21,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 65.21
+                }
+            }
+        },
+        "Z8": {
+            "ENV": {
+                "0.5": {
+                    "tariffa_originale": 19.04,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 19.04
+                }
+            },
+            "DOCS": {
+                "0.5": {
+                    "tariffa_originale": 19.04,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 19.04
+                },
+                "1.5": {
+                    "tariffa_originale": 20.31,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 20.31
+                },
+                "2.5": {
+                    "tariffa_originale": 27.5,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 27.5
+                }
+            },
+            "PKG": {
+                "0.5": {
+                    "tariffa_originale": 19.81,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 19.81
+                },
+                "1.0": {
+                    "tariffa_originale": 20.58,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 20.58
+                },
+                "2.0": {
+                    "tariffa_originale": 22.12,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 22.12
+                },
+                "3.0": {
+                    "tariffa_originale": 23.66,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 23.66
+                },
+                "5.0": {
+                    "tariffa_originale": 26.74,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 26.74
+                },
+                "10.0": {
+                    "tariffa_originale": 34.43,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 34.43
+                },
+                "15.0": {
+                    "tariffa_originale": 42.13,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 42.13
+                },
+                "20.0": {
+                    "tariffa_originale": 49.82,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 49.82
+                },
+                "25.0": {
+                    "tariffa_originale": 57.52,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 57.52
+                },
+                "30.0": {
+                    "tariffa_originale": 65.21,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 65.21
+                }
+            }
+        },
+        "Z9": {
+            "ENV": {
+                "0.5": {
+                    "tariffa_originale": 19.04,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 19.04
+                }
+            },
+            "DOCS": {
+                "0.5": {
+                    "tariffa_originale": 19.04,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 19.04
+                },
+                "1.5": {
+                    "tariffa_originale": 24.28,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 24.28
+                },
+                "2.5": {
+                    "tariffa_originale": 27.5,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 27.5
+                }
+            },
+            "PKG": {
+                "0.5": {
+                    "tariffa_originale": 19.81,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 19.81
+                },
+                "1.0": {
+                    "tariffa_originale": 20.58,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 20.58
+                },
+                "2.0": {
+                    "tariffa_originale": 22.12,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 22.12
+                },
+                "3.0": {
+                    "tariffa_originale": 23.66,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 23.66
+                },
+                "5.0": {
+                    "tariffa_originale": 26.74,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 26.74
+                },
+                "10.0": {
+                    "tariffa_originale": 34.43,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 34.43
+                },
+                "15.0": {
+                    "tariffa_originale": 42.13,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 42.13
+                },
+                "20.0": {
+                    "tariffa_originale": 49.82,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 49.82
+                },
+                "25.0": {
+                    "tariffa_originale": 57.52,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 57.52
+                },
+                "30.0": {
+                    "tariffa_originale": 65.21,
+                    "sconto_percentuale": 0,
+                    "tariffa_finale": 65.21
+                }
+            }
+        }
+    }
+}

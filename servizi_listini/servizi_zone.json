@@ -1,0 +1,144 @@
+[
+    {
+        "codice_servizio": "EXP",
+        "nome_servizio": "Espresso",
+        "codice_listino": "espresso_cash",
+        "Zone": [
+            "ZIT1",
+            "Z1",
+            "Z10",
+            "Z2",
+            "Z3",
+            "Z4",
+            "Z5",
+            "Z6",
+            "Z7",
+            "Z8",
+            "Z9"
+        ]
+    },
+    {
+        "codice_servizio": "EXP",
+        "nome_servizio": "Espresso",
+        "codice_listino": "espresso_icc",
+        "Zone": [
+            "ZIT1",
+            "Z1",
+            "Z10",
+            "Z2",
+            "Z3",
+            "Z4",
+            "Z5",
+            "Z6",
+            "Z7",
+            "Z8",
+            "Z9"
+        ]
+    },
+    {
+        "codice_servizio": "EXP-I",
+        "nome_servizio": "Espresso Import",
+        "codice_listino": "espresso_import_cash",
+        "Zone": [
+            "Z1",
+            "Z10",
+            "Z2",
+            "Z3",
+            "Z4",
+            "Z5",
+            "Z6",
+            "Z7",
+            "Z8",
+            "Z9"
+        ]
+    },
+    {
+        "codice_servizio": "ORE_1200",
+        "nome_servizio": "Ore 12:00",
+        "codice_listino": "ore12_cash",
+        "Zone": [
+            "ZIT1",
+            "Z1",
+            "Z10",
+            "Z2",
+            "Z3",
+            "Z4",
+            "Z5",
+            "Z6",
+            "Z7",
+            "Z8",
+            "Z9"
+        ]
+    },
+    {
+        "codice_servizio": "ORE_1200-I",
+        "nome_servizio": "Ore 12:00 Import",
+        "codice_listino": "ore12_import_cash",
+        "Zone": [
+            "Z1",
+            "Z10",
+            "Z2",
+            "Z3",
+            "Z4",
+            "Z5",
+            "Z6",
+            "Z7",
+            "Z8",
+            "Z9"
+        ]
+    },
+    {
+        "codice_servizio": "SAV",
+        "nome_servizio": "Saver",
+        "codice_listino": "saver_cash",
+        "Zone": [
+            "ZIT1",
+            "Z1",
+            "Z10",
+            "Z2",
+            "Z3",
+            "Z4",
+            "Z5",
+            "Z6",
+            "Z7",
+            "Z8",
+            "Z9"
+        ]
+    },
+    {
+        "codice_servizio": "STD",
+        "nome_servizio": "Standard",
+        "codice_listino": "standard_cash",
+        "Zone": [
+            "ZIT1",
+            "ZIT2",
+            "Z1",
+            "Z10",
+            "Z2",
+            "Z3",
+            "Z4",
+            "Z5",
+            "Z6",
+            "Z7",
+            "Z8",
+            "Z9"
+        ]
+    },
+    {
+        "codice_servizio": "STD-I",
+        "nome_servizio": "Standard Import",
+        "codice_listino": "standard_import_cash",
+        "Zone": [
+            "Z1",
+            "Z10",
+            "Z2",
+            "Z3",
+            "Z4",
+            "Z5",
+            "Z6",
+            "Z7",
+            "Z8",
+            "Z9"
+        ]
+    }
+]

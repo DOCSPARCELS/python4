@@ -1,0 +1,7 @@
+Codice Servizio,Nome Servizio,Listino,Zone
+EXP,Espresso,cash,"Z1, Z10, Z2, Z3, Z4, Z5, Z6, Z7, Z8, Z9"
+EXP-I,Espresso Import,cash,"Z1, Z10, Z2, Z3, Z4, Z5, Z6, Z7, Z8, Z9"
+ORE_1200,Ore 12:00,cash,"Z1, Z10, Z2, Z3, Z4, Z5, Z6, Z7, Z8, Z9"
+ORE_1200-I,Ore 12:00 Import,cash,"Z1, Z10, Z2, Z3, Z4, Z5, Z6, Z7, Z8, Z9"
+STD,Standard,cash,"Z1, Z10, Z2, Z3, Z4, Z5, Z6, Z7, Z8, Z9"
+STD-I,Standard Import,cash,"Z1, Z10, Z2, Z3, Z4, Z5, Z6, Z7, Z8, Z9"
