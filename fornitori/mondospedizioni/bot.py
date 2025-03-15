@@ -1,3 +1,4 @@
+
 import time
 import sys
 import os
@@ -5,24 +6,25 @@ import os
 # Aggiunge la cartella principale del progetto al path di Python
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-# from selenium import webdriver
+from selenium import webdriver
 from selenium.webdriver.edge.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 from fornitori.mondospedizioni.login import accedi  # ✅ Corretto
 from fornitori.mondospedizioni.documenti import documenti, genera_url_documenti, estrai_offerte
 from fornitori.mondospedizioni.pacchi import pacchi, genera_url_pacchi, estrai_offerte_pacchi
 
-
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
 
-def ottieni_tariffe_mondospedizioni(dati_spedizione):
+def ottieni_tariffe_mondospedizioni(dati_spedizione, driver=None):
     """Recupera le tariffe reali da Mondospedizioni"""
     print("🔍 Avvio del bot Mondospedizioni...")
 
-    # ✅ Inizializza il driver Edge
-    service = Service()
-    driver = webdriver.Edge(service=service)
-    wait = WebDriverWait(driver, 10)
+    # ✅ Inizializza il driver solo se non è stato passato come argomento
+    if driver is None:
+        service = Service()
+        driver = webdriver.Edge(service=service)
+
+    wait = WebDriverWait(driver, 5)
 
     # ✅ Esegui il login passando il driver e il wait
     accedi(driver, wait)
@@ -30,13 +32,18 @@ def ottieni_tariffe_mondospedizioni(dati_spedizione):
     # ✅ Generiamo l'URL in base alla tipologia di spedizione
     if dati_spedizione["tipologia"] == "DOCS":
         url = genera_url_documenti(dati_spedizione)
-        offerte = estrai_offerte(driver, wait, url)
+        print(f"🔗 URL effettivamente usato: {url}")  # Debug
+        driver.get(url)
+        offerte = estrai_offerte(driver, wait)
     else:
         url = genera_url_pacchi(dati_spedizione)
-        offerte = estrai_offerte_pacchi(driver, wait, url)
+        print(f"🔗 URL effettivamente usato: {url}")  # Debug
+        driver.get(url)
+        offerte = estrai_offerte_pacchi(driver, wait)
 
-    # ✅ Chiudiamo il browser dopo aver raccolto le offerte
+    input("🔍 Premi INVIO per chiudere il browser...")  # Attendi input manuale
     driver.quit()
+
 
     return [
         {
@@ -48,12 +55,6 @@ def ottieni_tariffe_mondospedizioni(dati_spedizione):
         }
         for o in offerte
     ]
-
-
-def ottieni_tariffe_mondospedizioni(dati_spedizione):
-    """Mondospedizioni temporaneamente disattivato per debug"""
-    return []
-  
 
 def avvia_bot(driver, wait, dati_spedizione):
     """
@@ -80,7 +81,7 @@ def avvia_bot(driver, wait, dati_spedizione):
             driver.get(url)
 
             # Attendere il caricamento della pagina e poi estrarre i dati delle offerte
-            risultati = estrai_offerte_documenti(driver, wait)
+            risultati = estrai_offerte(driver, wait)
 
         elif scelta == "pkg":
             pacchi(driver, wait)
@@ -105,7 +106,6 @@ def avvia_bot(driver, wait, dati_spedizione):
         import traceback
         print(f"❌ Errore nel BOT: {e}")
         print(traceback.format_exc())  # Mostra l'errore completo con la traccia dello stack
-
 
     finally:
         print("🔍 Il browser resterà aperto per verifica manuale. Procedo con le fasi successive...")

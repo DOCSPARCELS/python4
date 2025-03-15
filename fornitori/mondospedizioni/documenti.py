@@ -1,3 +1,5 @@
+import time
+
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -32,6 +34,8 @@ def genera_url_documenti(dati_spedizione):
            f"&peso_doc={dati_spedizione['peso_totale']}")
 
     return url
+    print(f"🔗 URL generato per la ricerca: {url}")  # Debug
+
 
 
 def estrai_offerte(driver, wait):
@@ -39,6 +43,8 @@ def estrai_offerte(driver, wait):
     Estrae le offerte di spedizione dalla pagina e le restituisce come lista di dizionari.
     """
     risultati = []  # Lista per salvare le offerte
+
+    time.sleep(5)  # Attende il caricamento della pagina prima di estrarre le offerte
 
     try:
         # Trova tutti i nomi dei corrieri
@@ -65,6 +71,10 @@ def estrai_offerte(driver, wait):
             risultati.append(offerta)
 
         print(f"✅ Offerte Estratte: {risultati}")  # DEBUG: Stampiamo i dati estratti
+
+        time.sleep(5)  # Attende il caricamento della pagina
+        print(driver.page_source)  # Debug: Mostra il codice HTML della pagina
+
 
     except Exception as e:
         print(f"❌ Errore nell'estrazione delle offerte: {e}")

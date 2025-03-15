@@ -49,7 +49,7 @@ def genera_url_pacchi(dati_spedizione):
            f"&tipo=packs&n_pacchi={n_pacchi}&pacchiugualisino={pacchiugualisino}&{pacchi_query}")
 
     return url
-
+    print(f"🔗 URL generato per la ricerca: {url}")  # Debug
 
 
 def estrai_offerte_pacchi(driver, wait):

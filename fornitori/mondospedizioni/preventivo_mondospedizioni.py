@@ -22,7 +22,7 @@ service.creationflags = subprocess.CREATE_NO_WINDOW  # Nasconde la finestra CMD
 
 # ✅ Inizializza il driver di Selenium
 driver = webdriver.Edge(service=service, options=options)
-wait = WebDriverWait(driver, 10)
+wait = WebDriverWait(driver, 5)
 
 
 def chiedi_dati_spedizione():
@@ -97,16 +97,11 @@ if accedi(driver, wait):
 
     # ✅ Dopo il login, avvia il preventivo
     print("\n🔍 Avvio del preventivo con i dati inseriti...")
-    offerte = ottieni_tariffe_mondospedizioni(dati_spedizione)
+    offerte = ottieni_tariffe_mondospedizioni(dati_spedizione, driver)
 else:
     print("❌ Errore nel login, impossibile continuare.")
     driver.quit()
     exit()
-
-
-# ✅ Dopo il login, avvia il preventivo
-print("\n🔍 Avvio del preventivo con i dati inseriti...")
-offerte = ottieni_tariffe_mondospedizioni(dati_spedizione)
 
 
 # ✅ Mostra i risultati

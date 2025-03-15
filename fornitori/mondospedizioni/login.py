@@ -63,22 +63,29 @@ def accedi(driver, wait):
 
 
 def close_login_popup(driver):
-    """ Chiude tutti i popup di conferma login che appaiono """
-    wait = WebDriverWait(driver, 5)
+    """ Chiude eventuali popup di conferma login """
+    wait = WebDriverWait(driver, 10)  # Aspetta fino a 10 secondi
     try:
         print("🔍 Cerco il popup di conferma login...")
-
-        # Verifica se il popup esiste con JavaScript prima di cliccare
+        
+        # Metodo 1: Verifica se esiste un popup di conferma login con JavaScript
         popup_exists = driver.execute_script("return document.querySelector('.swal2-popup button') !== null;")
+        
         if popup_exists:
             print("✅ Popup di login rilevato, tentando la chiusura...")
             driver.execute_script("document.querySelector('.swal2-popup button').click();")
             print("✅ Popup chiuso con successo!")
         else:
-            print("⚠️ Nessun popup trovato.")
+            print("⚠️ Nessun popup trovato con JavaScript, provo con un altro metodo...")
+
+            # Metodo 2: Trova il popup tramite XPath e chiudilo
+            popup_button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[contains(text(), 'OK') or contains(text(), 'Chiudi')]")))
+            popup_button.click()
+            print("✅ Popup chiuso con successo tramite XPath!")
 
     except Exception as e:
         print(f"⚠️ Nessun popup trovato o errore nella chiusura: {e}")
+
 
 
 __all__ = ["accedi", "close_login_popup"]
