@@ -8,6 +8,7 @@ Questo progetto gestisce **spedizioni, listini, zone, servizi e contatti** trami
 ## 📂 Struttura delle Cartelle
 
 ├── .DS_Store
+├── .gitignore
 ├── config.json
 ├── contatti
 │   └── contatti.json
@@ -19,17 +20,23 @@ Questo progetto gestisce **spedizioni, listini, zone, servizi e contatti** trami
 │   │   ├── __init__.cpython-313.pyc
 │   │   └── gestione_fornitori.cpython-313.pyc
 │   ├── aruba
+│   │   └── __init__.py
 │   ├── axerve
 │   │   ├── __int__.py
 │   │   └── login.py
 │   ├── brt
+│   │   └── __init__.py
 │   ├── dhl
+│   │   └── __init__.py
 │   ├── dhl_cargo
+│   │   └── __init__.py
 │   ├── endex
 │   │   ├── __init__.py
 │   │   └── login.py
 │   ├── fedex
+│   │   └── __init__.py
 │   ├── fedex_tnt
+│   │   └── __init__.py
 │   ├── gestione_fornitori.py
 │   ├── globalservice
 │   │   ├── .env
@@ -43,7 +50,9 @@ Questo progetto gestisce **spedizioni, listini, zone, servizi e contatti** trami
 │   │   ├── preventivo_globalservice_precompilato.py
 │   │   └── selenium_provincia.py
 │   ├── gls
+│   │   └── __init__.py
 │   ├── inpost
+│   │   └── __init__.py
 │   ├── mondospedizioni
 │   │   ├── .env
 │   │   ├── __init__.py
@@ -62,11 +71,14 @@ Questo progetto gestisce **spedizioni, listini, zone, servizi e contatti** trami
 │   │   ├── preventivo_mondospedizioni.py
 │   │   └── test_mondospedizioni.py
 │   ├── mypos
+│   │   └── __init__.py
 │   ├── packlink
 │   │   ├── __init__.py
 │   │   └── login.py
 │   ├── poste
+│   │   └── __init__.py
 │   └── ups
+│       └── __init__.py
 ├── google
 │   ├── __init__.py
 │   ├── __pycache__
